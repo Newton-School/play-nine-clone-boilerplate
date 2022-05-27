@@ -1,0 +1,52 @@
+.container-fluid {
+  background-color: #ddd;
+  color: #333;
+  height: 100vh;
+}
+
+body{
+  overflow: hidden;
+  
+}
+
+.fa-star {
+  margin: 0.5em;
+  color: #111;
+
+}
+
+span {
+  display: inline-block;
+  margin: 0.7em;
+  text-align: center;
+  background-color: #ccc;
+  width: 45px;
+  padding: 10px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card {
+  height: 150px;
+  padding: 4% 0;
+}
+
+.selected {
+  background-color: #fff;
+  color: #333;
+  cursor: not-allowed;
+}
+
+.used {
+  background-color: #aaddaa;
+  color: #333;
+  cursor: not-allowed;
+}
+
+.note{
+  color: #111;
+  position: sticky;
+  bottom: 70px;
+  align-items: center;
+}
